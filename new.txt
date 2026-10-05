@@ -1,0 +1,9 @@
+[Index]   [Word]        [FileCount]   [Filename]       [WordCount]
+-------------------------------------------------------------------
+[7]   [hi]   2 file(s) : file : f1.txt : 2 time(s) file : f2.txt : 2 time(s) 
+[8]   [is]   1 file(s) : file : f2.txt : 2 time(s) 
+[10]   [Kumar]   1 file(s) : file : f1.txt : 2 time(s) 
+[12]   [Manish]   2 file(s) : file : f1.txt : 2 time(s) file : f2.txt : 2 time(s) 
+[12]   [MY]   1 file(s) : file : f2.txt : 2 time(s) 
+[13]   [Name]   1 file(s) : file : f2.txt : 2 time(s) 
+[17]   [r]   1 file(s) : file : f1.txt : 2 time(s) 

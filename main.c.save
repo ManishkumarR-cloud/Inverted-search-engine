@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include "structure.h"
+
+#define TABLE_SIZE 28
+
+// Forward declarations
+void validate_args(int argc, char *argv[], filenames_t **file_list);
+void create_database(filenames_t *file_list, mainnode_t *hashtable[]);
+void display_database(mainnode_t *hashtable[]);
+
+int main(int argc, char *argv[]) {
+    filenames_t *file_list = NULL;             // linked list of valid filenames
+    mainnode_t *hashtable[TABLE_SIZE] = {0};   // initialize hash table with NULL
+
+    // Step 1: Validate command line arguments
+    validate_args(argc, argv, &file_list);
+
+    printf("Validation successful. Creating database...\n");
+
+    // Step 2: Build database
+    create_database(file_list, hashtable);
+
+    printf("Database created successfully!\n");
+
+    // Step 3: Display database (for debugging)
+    display_database(hashtable);
+
+    return 0;
+}
